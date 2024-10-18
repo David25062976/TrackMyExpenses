@@ -1,0 +1,96 @@
+{
+    "records": [
+        {
+            "date": "2024-09-05-18-28",
+            "item_name": "\u665a\u9910-\u8089\u7fb9\u98ef",
+            "category": "food",
+            "price": 80
+        },
+        {
+            "date": "2024-09-05-12-30",
+            "item_name": "\u5348\u9910-\u9435\u677f\u9eb5",
+            "category": "food",
+            "price": 70
+        },
+        {
+            "date": "2024-09-04-19-25",
+            "item_name": "\u8f49\u63a5\u982d",
+            "category": "home",
+            "price": 35
+        },
+        {
+            "date": "2024-09-04-12-30",
+            "item_name": "\u5348\u9910-\u6f22\u5821\u5957\u9910",
+            "category": "food",
+            "price": 85
+        },
+        {
+            "date": "2024-09-03-19-07",
+            "item_name": "\u8089\u3001Daymn\u3001\u706b\u934b\u6599",
+            "category": "food",
+            "price": 280
+        },
+        {
+            "date": "2024-09-03-18-30",
+            "item_name": "\u665a\u9910-\u7092\u98ef",
+            "category": "food",
+            "price": 105
+        },
+        {
+            "date": "2024-09-03-12-30",
+            "item_name": "\u5348\u9910-\u9435\u677f\u9eb5",
+            "category": "food",
+            "price": 70
+        },
+        {
+            "date": "2024-09-02-18-30",
+            "item_name": "\u665a\u9910-\u9e79\u6c34\u96de",
+            "category": "food",
+            "price": 180
+        },
+        {
+            "date": "2024-09-02-11-31",
+            "item_name": "\u5348\u9910-\u9435\u677f\u9eb5",
+            "category": "food",
+            "price": 109
+        },
+        {
+            "date": "2024-09-01-18-25",
+            "item_name": "\u665a\u9910-\u81ed\u8c46\u8150",
+            "category": "food",
+            "price": 120
+        },
+        {
+            "date": "2024-09-01-12-54",
+            "item_name": "\u5ef6\u9577\u7dda\u3001\u8f49\u63a5\u982d\u3001\u7db2\u8def\u7dda",
+            "category": "home",
+            "price": 578
+        },
+        {
+            "date": "2024-09-01-12-00",
+            "item_name": "\u5348\u9910-\u6ef7\u8089\u98ef+\u71d9\u9752\u83dc",
+            "category": "food",
+            "price": 85
+        },
+        {
+            "date": "2023-09-30-22-21",
+            "item_name": "\u9ed1\u609f\u7a7a\u795e\u8a71",
+            "category": "entertainment",
+            "price": 1180
+        },
+        {
+            "date": "2023-09-04-05-14",
+            "item_name": "Daymn",
+            "category": "Daymn",
+            "price": 10
+        }
+    ],
+    "categories": [
+        "Daymn",
+        "clothing",
+        "entertainment",
+        "food",
+        "home",
+        "tax"
+    ]
+}
