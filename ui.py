@@ -15,7 +15,7 @@ def on_button_click():
     print("Button clicked!")
 
 root.title( 'Take My Money' )        # 設定標題
-root.iconbitmap( 'TME.ico' )  # 設定 icon
+root.iconbitmap( 'imgs/TME.ico' )  # 設定 icon
 root.configure( background = bg_color )   # 設定背景色
 root.resizable( True, True )   # 設定 x 方向和 y 方向的縮放
 
@@ -323,7 +323,7 @@ category_menu.place( relx = 0.5, x = -440, y = 455, anchor = 'w' )
 if not len( load_categories() ) == 0 :
     category_menu.current( 0 )
 
-more_image = Image.open("more.png")  # 打开图标图像
+more_image = Image.open("imgs/more.png")  # 打开图标图像
 more_image = more_image.resize( ( 30, 30 ) , Image.Resampling.LANCZOS )  # 调整大小至30x30像素
 more_icon = ImageTk.PhotoImage( more_image )   # 将图像转换为Tkinter可以使用的格式
 
@@ -364,7 +364,7 @@ price_entry.bind( '<FocusIn>', lambda event : on_entry_click( price_entry, price
 price_entry.bind( '<FocusOut>', lambda event : on_focusout( price_entry, price_watermark ) )
 price_entry.place( relx = 0.5, x = -440, y = 555, anchor = 'w' )
 
-check_image = Image.open("check.png")  # 打开图标图像
+check_image = Image.open("imgs/check.png")  # 打开图标图像
 check_image = check_image.resize( ( 250, 250 ) , Image.Resampling.LANCZOS )  # 調整大小
 check_icon = ImageTk.PhotoImage( check_image )   # 将图像转换为Tkinter可以使用的格式
 

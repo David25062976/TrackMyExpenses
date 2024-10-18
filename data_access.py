@@ -15,7 +15,7 @@ import os
 # }
 
 # 文件路徑
-FILE_PATH = "./data.json"
+FILE_PATH = "./record/data.json"
 
 # 讀取紀錄
 def load_records() :

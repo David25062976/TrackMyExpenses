@@ -58,7 +58,7 @@ def update_ui( root, category_menu ) :
     except NameError:
         pass  # 如果 gear_button 未定义，直接跳过
 
-    bin_image = Image.open("bin.png")  # 打开图标图像
+    bin_image = Image.open("imgs/bin.png")  # 打开图标图像
     bin_image = bin_image.resize( ( 40, 40 ) , Image.Resampling.LANCZOS )  # 调整大小至30x30像素
     bin_icon = ImageTk.PhotoImage( bin_image )   # 将图像转换为Tkinter可以使用的格式
     grey = False
@@ -105,7 +105,7 @@ def update_ui( root, category_menu ) :
     item_name_entry.bind( '<FocusOut>', lambda event : on_focusout( item_name_entry, item_name_watermark ) )
     item_name_entry.grid( column = 0, row = i + 1 )
 
-    add_image = Image.open("more.png")  # 打开图标图像
+    add_image = Image.open("imgs/more.png")  # 打开图标图像
     add_image = add_image.resize( ( 30, 30 ) , Image.Resampling.LANCZOS )  # 调整大小至30x30像素
     add_icon = ImageTk.PhotoImage( add_image )   # 将图像转换为Tkinter可以使用的格式
 

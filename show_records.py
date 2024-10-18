@@ -266,7 +266,7 @@ def sr_edit_record( index ) :
     elif not len( load_categories() ) == 0 :
         category_menu.current( 0 )
 
-    more_image = Image.open("more.png")  # 打开图标图像
+    more_image = Image.open("imgs/more.png")  # 打开图标图像
     more_image = more_image.resize( ( 30, 30 ) , Image.Resampling.LANCZOS )  # 调整大小至30x30像素
     more_icon = ImageTk.PhotoImage( more_image )   # 将图像转换为Tkinter可以使用的格式
 
@@ -306,7 +306,7 @@ def sr_edit_record( index ) :
     price_entry.delete( 0, tk.END )
     price_entry.insert( 0, records[ index ][ 'price' ] )
 
-    check_image = Image.open("check.png")  # 打开图标图像
+    check_image = Image.open("imgs/check.png")  # 打开图标图像
     check_image = check_image.resize( ( 250, 250 ) , Image.Resampling.LANCZOS )  # 調整大小
     check_icon = ImageTk.PhotoImage( check_image )   # 将图像转换为Tkinter可以使用的格式
 
@@ -437,11 +437,11 @@ def update_show_records() :
     )
     empty_label.grid( row = 0, column = 4, columnspan = 2 )
 
-    delete_image = Image.open("bin.png")  # 打开图标图像
+    delete_image = Image.open("imgs/bin.png")  # 打开图标图像
     delete_image = delete_image.resize( ( 30, 30 ) , Image.Resampling.LANCZOS )  # 调整大小至30x30像素
     delete_icon = ImageTk.PhotoImage( delete_image )   # 将图像转换为Tkinter可以使用的格式
 
-    edit_image = Image.open("edit.png")  # 打开图标图像
+    edit_image = Image.open("imgs/edit.png")  # 打开图标图像
     edit_image = edit_image.resize( ( 30, 30 ) , Image.Resampling.LANCZOS )  # 调整大小至30x30像素
     edit_icon = ImageTk.PhotoImage( edit_image )   # 将图像转换为Tkinter可以使用的格式
 
@@ -532,7 +532,7 @@ def update_ui() :
 
     update_show_records()
 
-    left_image = Image.open("left.png")  # 打开图标图像
+    left_image = Image.open("imgs/left.png")  # 打开图标图像
     left_image = left_image.resize( ( 40, 40 ) , Image.Resampling.LANCZOS )  # 调整大小至30x30像素
     left_icon = ImageTk.PhotoImage( left_image )   # 将图像转换为Tkinter可以使用的格式
 
@@ -546,7 +546,7 @@ def update_ui() :
     left_button.place( relx = 0.5, x = -150, y = 700, anchor = 'center' )
     root.left_icon = left_icon
 
-    right_image = Image.open("right.png")  # 打开图标图像
+    right_image = Image.open("imgs/right.png")  # 打开图标图像
     right_image = right_image.resize( ( 40, 40 ) , Image.Resampling.LANCZOS )  # 调整大小至30x30像素
     right_icon = ImageTk.PhotoImage( right_image )   # 将图像转换为Tkinter可以使用的格式
 
